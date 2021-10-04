@@ -71,6 +71,10 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+
+.cella-grande {
+    width: 1.5%;
+}
 tr > th {
     height: fit-content;
     width: 1%;
@@ -103,4 +107,22 @@ div {
     height: 200px;
 }
 
-.scritta-foto
+.grafico {
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.scritta-img {
+    padding-top: 10px;
+    margin-left: 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.potrebbero-interessarti {
+    color: #8a8a8a;
+    font-weight: bold;
+}
