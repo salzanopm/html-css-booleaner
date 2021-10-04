@@ -12,13 +12,17 @@
     margin: auto;
 }
 
+div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /* HEADER */
 header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);  
     background-size: 37%;
-    background-position-x: 11%;
-    
+    background-position-x: 11%;   
 }
 
 .introduzione-foto {
@@ -55,17 +59,11 @@ header {
     color: #8a8a8a;
 }
 
-section > span {
-    font-weight: bold;
-}
-
-.img-block {
-    width: 100%;
-}
-
 .testo-evidenziato {
     background: yellow;
 }
+
+/* TABELLA */
 
 table {
     border-collapse: collapse;
@@ -96,9 +94,12 @@ thead {
     border-color: #b1e5f2;
 }
 
-div {
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+/* IMMAGINI CON TESTO */
+
+.potrebbero-interessarti {
+    color: #8a8a8a;
+    font-weight: bold;
 }
 
 .monitor {
@@ -119,10 +120,5 @@ div {
     color: white;
     font-weight: bold;
     font-size: 25px;
-
 }
 
-.potrebbero-interessarti {
-    color: #8a8a8a;
-    font-weight: bold;
-}
