@@ -65,6 +65,17 @@ section > span {
 
 table {
     border-collapse: collapse;
+    width: 100%;
+}
+tr > th {
+    height: fit-content;
+    width: 1%;
+    text-align: left;
+    color: white;
+}
+
+tr > td {
+    height: fit-content;
 }
 
 thead {
@@ -72,8 +83,8 @@ thead {
     border-color:  #20a9e5;
 }
 
-tbody {
+.lightblue-row {
     background-color:#b1e5f2;
     border-color: #b1e5f2;
 }
-}
+
