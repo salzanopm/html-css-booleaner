@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    height: fit-content;
 }
 
 /* COMMON */
@@ -50,6 +51,9 @@ header {
     color: #29ade6;
 }
 
+.date {
+    color: #8a8a8a;
+}
 
 section > span {
     font-weight: bold;
@@ -88,3 +92,15 @@ thead {
     border-color: #b1e5f2;
 }
 
+div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.monitor {
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.scritta-foto
